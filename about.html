@@ -23,6 +23,10 @@
       href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700"
       rel="stylesheet"
     />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <!--
 CSS
@@ -38,11 +42,11 @@ CSS
 
   <body>
     <!-- Preloader -->
-    <div id="loader-wrapper">
+    <!-- <div id="loader-wrapper">
       <div id="loader"></div>
       <div class="loader-section section-left"></div>
       <div class="loader-section section-right"></div>
-    </div>
+    </div> -->
 
     <!-- Start header section -->
     <header class="header-area" id="header-area">
@@ -117,8 +121,8 @@ CSS
       <div class="container">
         <div class="row section-gap-half">
           <div class="col-lg-12 text-center">
-            <h1>About US</h1>
-            <h4>All the Things About Us</h4>
+            <h1 class="anime-banner-h1 animate__animated animate__fadeInUp">About US</h1>
+            <h4 class="anime-banner-p animate__animated animate__fadeInUp">All the Things About Us</h4>
           </div>
         </div>
       </div>
@@ -135,10 +139,10 @@ CSS
           <div class="col-lg-6 col-md-6 about-left">
             <img class="img-fluid slant-img slant-img__second" src="assets/img/pexels-rfstudio-4177735.jpg" alt="" />
           </div>
-          <div class="col-lg-5 col-md-5 about-right">
+          <div class="col-lg-5 col-md-5 about-right scroll-animations">
             <!-- <h3>Who We Are</h3> -->
-            <h1>Who We Are</h1>
-            <p>
+            <h1 class="anime-service animate__animated">Who We Are</h1>
+            <p class="anime-service animate__animated">
               OJA is an E-commerce company, offering a third-party online market
               platform for supermarkets to provide their products and services
               to consumers. The on-demand grocery delivery platform would
@@ -147,7 +151,7 @@ CSS
               the trip to the stores for our customers by bringing merchants
               (and their inventory) online.
             </p>
-            <p>
+            <p class="anime-service animate__animated">
               OJA proffers a solution to the widespread issue of poor
               accessibility to groceries and resources, primarily in Nigeria. As
               a solution to this problem, OJA connects customers to supermarkets
@@ -203,9 +207,9 @@ CSS
     >
       <div class="container">
         <div class="row align-items-center justify-content-between">
-          <div class="col-lg-6 col-md-6 about-left">
-            <h1>Why We Do It</h1>
-            <p>
+          <div class="col-lg-6 col-md-6 about-left scroll-animations">
+            <h1 class="anime-service animate__animated">Why We Do It</h1>
+            <p class="anime-service animate__animated">
               Africa has an increasing number of working population, and a rapid
               urbanization and growing trend towards nuclear families along with
               a growing population of working women, which brings about the
@@ -219,7 +223,7 @@ CSS
               long walks or drive just to get a tooth brush and a bar of soap
               and queue for more than 30 minutes.
             </p>
-            <p>
+            <p class="anime-service animate__animated">
               The trend in customer behavior has been an increasingly rapid
               migration towards online shopping. This situation indicates a
               service gap that we can effectively fill through our e-commerce
@@ -246,8 +250,8 @@ CSS
           <h2 class="text-center text-header">Our Values</h2>
           <!-- <p class="text-center">Discover The Service We Provide</p> -->
         </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 pb-30">
+        <div class="row scroll-animations">
+          <div class="col-lg-3 col-md-6 pb-30 anime-service animate__animated">
             <div class="single-service">
               <i class="ti-user"></i>
               <h4>Innovation</h4>
@@ -258,7 +262,7 @@ CSS
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 pb-30">
+          <div class="col-lg-3 col-md-6 pb-30 anime-service animate__animated">
             <div class="single-service">
               <i class="ti-announcement"></i>
               <h4>Diversity</h4>
@@ -268,7 +272,7 @@ CSS
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 pb-30">
+          <div class="col-lg-3 col-md-6 pb-30 anime-service animate__animated">
             <div class="single-service">
               <i class="ti-bar-chart"></i>
               <h4>Community</h4>
@@ -278,7 +282,7 @@ CSS
               </p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 pb-30">
+          <div class="col-lg-3 col-md-6 pb-30 anime-service animate__animated">
             <div class="single-service">
               <i class="ti-bar-chart"></i>
               <h4>Customer focus</h4>
@@ -497,5 +501,6 @@ JS
     <script src="assets/js/jquery.stellar.min.js"></script>
     <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/on-scroll.js"></script>
   </body>
 </html>

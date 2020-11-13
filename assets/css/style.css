@@ -3224,6 +3224,10 @@ td, th {
   background: rgb(245, 247, 250);
 }
 
+.values-section .single-service {
+  border-radius:3px 100px 3px 3px;
+}
+
 /* .dope-nav-container li a{
   color: #ffffff !important;
 }
@@ -3276,5 +3280,51 @@ td, th {
 @media (min-width: 1280px) {
   .single-service {
     min-height: 320.61px;
+  }
+}
+
+/* animation styles */
+.anime-text {
+  animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+  animation-delay: 3s;
+}
+
+.anime-banner-h1.animate__animated.animate__fadeInUp {
+  animation-delay: .7s !important;
+}
+
+.anime-banner-p {
+  animation-delay: .9s;
+}
+
+.anime-service {
+  opacity: 0;
+}
+.download-sect {
+  opacity: 0;
+}
+
+.benefit-service {
+  opacity: 0;
+}
+
+@media (min-width: 770px) {
+  .anime-service:nth-child(1) {
+    opacity: 0;
+  }
+  
+  .anime-service:nth-child(2) {
+    opacity: 0;
+    animation-delay: .3s
+  }
+  
+  .anime-service:nth-child(3) {
+    opacity: 0;
+    animation-delay: .5s
+  }
+  .anime-service:nth-child(4) {
+    opacity: 0;
+    animation-delay: .7s
   }
 }
