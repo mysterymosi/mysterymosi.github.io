@@ -42,6 +42,9 @@
   .about-right h1 {
     font-size: 30px;
   }
+  .about-left h1 {
+    font-size: 30px;
+  }
   .about-right .primary-btn {
     min-width: 130px;
   }

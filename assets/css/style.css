@@ -376,19 +376,19 @@ td, th {
 }
 
 .page-top-banner {
-  background: url(../img/about-header.jpg);
+  background: url(../img/shopping.jpg);
   background-size: cover;
 }
 .page-top-banner .overlay-bg {
   opacity: .8;
 }
 .page-top-banner h1 {
-  color: #000;
+  color: #fff;
   font-size: 55px;
   margin-bottom: 10px;
 }
 .page-top-banner h4 {
-  color: #000;
+  color: #fff;
   font-weight: 400;
 }
 
@@ -1702,7 +1702,7 @@ td, th {
 }
 .service-section .single-service i {
   font-size: 35px;
-  color: #222;
+  color: rgb(22, 18, 76);
 }
 .service-section .single-service h4 {
   margin: 10px 0px;
@@ -1808,6 +1808,10 @@ td, th {
   background-position: center;
 }
 .about-section .about-left img {
+  width: 100%;
+}
+
+.about-section .about-right img {
   width: 100%;
 }
 .about-section .about-right h3 {
@@ -3131,6 +3135,23 @@ td, th {
   margin-bottom: 10rem;
 }
 
+.about-page-section .about-left h1 {
+  margin-bottom: 30px;
+  max-width: 480px;
+}
+
+.about-page-section {
+  background-color: #ffffff !important;
+}
+
+.about-page-section.pg-2 {
+  padding-top: 20px !important;
+}
+
+.about-page-section p{
+  color: #000 !important;
+}
+
 .about-section {
   background: rgb(22, 18, 76);
 }
@@ -3199,6 +3220,10 @@ td, th {
   line-height: 40px;
 }
 
+.values-section {
+  background: rgb(245, 247, 250);
+}
+
 /* .dope-nav-container li a{
   color: #ffffff !important;
 }
@@ -3242,5 +3267,14 @@ td, th {
     font-size: 20px;
     margin-bottom: 37px;
     margin-top: 37px;
+  }
+  .single-service {
+    min-height: 387.61px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .single-service {
+    min-height: 320.61px;
   }
 }
