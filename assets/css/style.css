@@ -3299,14 +3299,14 @@ td, th {
 }
 
 .anime-service {
-  opacity: 0 !important;
+  opacity: 0;
 }
 .download-sect {
-  opacity: 0 !important;
+  opacity: 0;
 }
 
 .benefit-service {
-  opacity: 0 !important;
+  opacity: 0;
 }
 
 @media (min-width: 770px) {
