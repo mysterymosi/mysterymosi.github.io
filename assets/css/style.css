@@ -329,7 +329,7 @@ td, th {
   text-align: center;
   text-decoration: none;
   display: none;
-  background: rgb(22, 18, 76);
+  background: rgb(44, 45, 132);
   border-radius: 3px;
   -webkit-box-shadow: 0 2px 15px rgba(0, 0, 0, 0.25);
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.25);
@@ -343,9 +343,9 @@ td, th {
 }
 
 /* .gradient-bg, .page-top-banner .overlay-bg, .banner-section .overlay-bg, .features-wrap .single-feature .overlay-bg {
-  background: -moz-linear-gradient(0deg, #f51dac 0%, #691cff 100%);
-  background: -webkit-linear-gradient(0deg, #f51dac 0%, #691cff 100%);
-  background: -ms-linear-gradient(0deg, #f51dac 0%, #691cff 100%);
+  background: -moz-linear-gradient(0deg, #f51dac 0%, rgb(44, 45, 132) 100%);
+  background: -webkit-linear-gradient(0deg, #f51dac 0%, rgb(44, 45, 132) 100%);
+  background: -ms-linear-gradient(0deg, #f51dac 0%, rgb(44, 45, 132) 100%);
 } */
 
 .offwhite-bg {
@@ -355,7 +355,7 @@ td, th {
 .primary-btn {
   text-align: center;
   border-radius: 5px;
-  background: rgb(22, 18, 76);
+  background: rgb(44, 45, 132);
   padding: 15px 40px;
   font-weight: 400;
   min-width: 160px;
@@ -1165,7 +1165,7 @@ td, th {
 }
 
 .breakpoint-on .dope-navbar .dope-menu {
-  background-color: #691cff;
+  background-color: rgb(44, 45, 132);
   position: fixed;
   top: 0;
   left: -310px;
@@ -1595,7 +1595,7 @@ td, th {
 }
 .features-wrap .single-feature span {
   font-size: 35px;
-  color: #691cff;
+  color: rgb(44, 45, 132);
   padding-bottom: 25px;
   display: inline-block;
 }
@@ -1702,7 +1702,7 @@ td, th {
 }
 .service-section .single-service i {
   font-size: 35px;
-  color: rgb(22, 18, 76);
+  color: rgb(247, 161, 47);
 }
 .service-section .single-service h4 {
   margin: 10px 0px;
@@ -1732,7 +1732,7 @@ td, th {
   margin: 0px 5px;
 }
 .service-section .owl-dots .owl-dot.active {
-  background: #691cff;
+  background: rgb(44, 45, 132);
 }
 .service-section .owl-dots .owl-dot:focus {
   outline: none;
@@ -1769,7 +1769,7 @@ td, th {
   border-radius: 4px;
 }
 .skill-section .skill-left .prog_container .progress .progress-bar {
-  background-color: #691cff;
+  background-color: rgb(44, 45, 132);
   height: 100%;
 }
 .skill-section .skill-left .prog_container .progress.md {
@@ -1827,7 +1827,7 @@ td, th {
 }
 .about-section .about-right .icon span {
   font-size: 40px;
-  color: #691cff;
+  color: rgb(44, 45, 132);
 }
 .about-section .about-right .details p {
   max-width: 300px;
@@ -1955,7 +1955,7 @@ td, th {
   margin: 0px 5px;
 }
 .testimonial-section .owl-dots .owl-dot.active {
-  background: #691cff;
+  background: rgb(44, 45, 132);
 }
 .testimonial-section .owl-dots .owl-dot:focus {
   outline: none;
@@ -2241,7 +2241,7 @@ td, th {
   margin-right: 10px;
 }
 .blog-lists-section .single-blog-post .tags li a {
-  color: #691cff;
+  color: rgb(44, 45, 132);
   font-weight: 600;
   font-size: 14px;
 }
@@ -2272,14 +2272,14 @@ td, th {
   border-radius: 3px;
 }
 .blog-lists-section .pagination .page-link:hover {
-  background: #691cff;
+  background: rgb(44, 45, 132);
   color: #fff;
 }
 .blog-lists-section .pagination .page-link:hover i {
   color: #fff;
 }
 .blog-lists-section .pagination .active .page-link {
-  background: #691cff;
+  background: rgb(44, 45, 132);
   color: #fff;
   border-color: transparent;
 }
@@ -2363,7 +2363,7 @@ td, th {
   transition: all 0.3s ease 0s;
 }
 .blog-lists-section .social-widget li a:hover {
-  background: #691cff;
+  background: rgb(44, 45, 132);
 }
 .blog-lists-section .archive-widget ul li {
   margin-bottom: 10px;
@@ -2382,7 +2382,7 @@ td, th {
   transition: all 0.3s ease 0s;
 }
 .blog-lists-section .archive-widget ul li a:hover {
-  color: #691cff;
+  color: rgb(44, 45, 132);
 }
 .blog-lists-section .banner-widget {
   padding: 0px;
@@ -2404,7 +2404,7 @@ td, th {
   transition: all 0.3s ease 0s;
 }
 .blog-lists-section .tags-widget ul li a:hover {
-  background: #691cff;
+  background: rgb(44, 45, 132);
 }
 
 .blog-details {
@@ -2445,7 +2445,7 @@ td, th {
   margin-right: 10px;
 }
 .blog-details .tags li a {
-  color: #691cff;
+  color: rgb(44, 45, 132);
   font-weight: 600;
   font-size: 14px;
 }
@@ -2463,7 +2463,7 @@ td, th {
   margin-left: 8px;
 }
 .blog-details .blockquote {
-  border-left: 5px solid #691cff;
+  border-left: 5px solid rgb(44, 45, 132);
   font-size: 14px;
   margin-bottom: 35px;
   margin-left: 20px;
@@ -2596,7 +2596,7 @@ td, th {
   margin: 0px 5px;
 }
 .team-section .owl-dots .owl-dot.active {
-  background: #691cff;
+  background: rgb(44, 45, 132);
 }
 .team-section .owl-dots .owl-dot:focus {
   outline: none;
@@ -2636,8 +2636,8 @@ td, th {
 
 .accordion > dt > a.active {
   color: #fff;
-  border-color: #691cff;
-  background: #691cff;
+  border-color: rgb(44, 45, 132);
+  background: rgb(44, 45, 132);
   cursor: default;
 }
 .accordion > dt > a.active:after {
@@ -2732,7 +2732,7 @@ td, th {
 }
 .price-section .price-right .main {
   margin: -30px 0;
-  background: #691cff;
+  background: rgb(44, 45, 132);
   color: #fff;
 }
 .price-section .price-right .main i, .price-section .price-right .main h4, .price-section .price-right .main h2 {
@@ -2760,7 +2760,7 @@ td, th {
 .price-section .single-price i {
   position: relative;
   font-size: 40px;
-  color: #691cff;
+  color: rgb(44, 45, 132);
 }
 .price-section .single-price h4 {
   position: relative;
@@ -2847,7 +2847,7 @@ td, th {
 /*  Stat Styles 
 /* =================================== */
 .stat-section {
-  background: #691cff;
+  background: rgb(44, 45, 132);
 }
 .stat-section h1, .stat-section h4 {
   color: #fff;
@@ -2867,7 +2867,7 @@ td, th {
 /* =================================== */
 .contact-section {
   background: url(../img/download-bg.png);
-  border-bottom: 100px solid #222;
+  border-bottom: 100px solid #eee;
 }
 .contact-section .section-title {
   padding-top: 120px;
@@ -2877,7 +2877,7 @@ td, th {
   background: #fff;
   padding: 30px 0px;
   border-radius: 3px;
-  margin-bottom: -100px;
+  /* margin-bottom: -100px; */
   box-shadow: 0px 0px 158px 0px rgba(0, 0, 0, 0.11);
   -webkit-box-shadow: 0px 0px 158px 0px rgba(0, 0, 0, 0.11);
   -moz-box-shadow: 0px 0px 158px 0px rgba(0, 0, 0, 0.11);
@@ -2889,7 +2889,7 @@ td, th {
 }
 .address-wrap .single-address-col i {
   font-size: 50px;
-  color: #691cff;
+  color: rgb(44, 45, 132);
 }
 .address-wrap .single-address-col p {
   font-size: 16px;
@@ -2940,7 +2940,7 @@ td, th {
   background: #ef5659;
 }
 .form-row .success {
-  background: #691cff;
+  background: rgb(44, 45, 132);
 }
 
 .contact-page-section {
@@ -2992,7 +2992,7 @@ td, th {
   transition: all 0.3s ease 0s;
 }
 .footer-section .footer-menu li a:hover {
-  color: #691cff;
+  color: rgb(44, 45, 132);
 }
 .footer-section .copyright-text {
   margin-top: 30px;
@@ -3026,8 +3026,8 @@ td, th {
   font-size: 18px;
 }
 .footer-section #social li a:hover {
-  color: #691cff;
-  border-color: #691cff;
+  color: rgb(44, 45, 132);
+  border-color: rgb(44, 45, 132);
 }
 .footer-section .footer-cols h4 {
   color: #fff;
@@ -3056,7 +3056,7 @@ td, th {
   transition: all 0.3s ease 0s;
 }
 .footer-section .footer-cols ul li a:hover {
-  color: #691cff;
+  color: rgb(44, 45, 132);
 }
 
 
@@ -3072,7 +3072,7 @@ td, th {
 
 .fee-header {
   font-size: 3rem;
-  color: rgb(29, 207, 159);
+  color: rgb(44, 45, 132);
   margin-bottom: 15px;
 }
 
@@ -3087,7 +3087,7 @@ td, th {
 }
 
 .fee-single {
-  border-top: 2px solid rgb(29, 207, 159) !important;
+  border-top: 2px solid rgb(44, 45, 132) !important;
   border-top-left-radius: 6px;
   border-top-right-radius: 6px;
 }
@@ -3153,7 +3153,7 @@ td, th {
 }
 
 .about-section {
-  background: rgb(22, 18, 76);
+  background: rgb(44, 45, 132);
 }
 
 .about-section h2, .about-section p, .about-section h4 {
@@ -3305,8 +3305,24 @@ td, th {
   opacity: 0;
 }
 
+.anime-form {
+  opacity: 0;
+}
+
 .benefit-service {
   opacity: 0;
+}
+
+.purple-header {
+  color: rgb(44, 45, 132) !important;
+}
+
+.gold-header {
+  color: rgb(247, 161, 47) !important;
+}
+
+.form-p {
+  font-size: 25px !important;
 }
 
 @media (min-width: 770px) {
