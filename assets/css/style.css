@@ -3114,7 +3114,8 @@ td, th {
   color: #222;
 }
 .benefit-section .single-service h4 {
-  font-size: 2rem;
+  font-size: 3vw;
+  font-weight: 600;
   margin:30px 0 40px 0px;
 }
 .benefit-section .single-service p {
@@ -3252,6 +3253,10 @@ td, th {
   .single-logo img {
     margin-bottom: 10px;;
   }
+
+  .benefit-section .single-service h4 {
+    font-size: 2rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -3343,6 +3348,18 @@ td, th {
 
 .btn-cyan {
   background-color: #4cb9b2;
+}
+
+.bg-grey {
+  background-color: rgb(245, 247, 250) !important;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+}
+
+.pd-bottom {
+  padding-bottom: 0 !important;
 }
 
 @media (min-width: 770px) {
