@@ -3370,6 +3370,15 @@ td, th {
   line-height: 14px;
 }
 
+.pd-top-bottom {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.covid-section {
+  padding-bottom: 0 !important;
+}
+
   .slider-title__item {
     display: inline-block;
   }
