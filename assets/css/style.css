@@ -3380,6 +3380,10 @@ td, th {
   padding-bottom: 0 !important;
 }
 
+.store-owner-banner {
+  background-image: url("../img/partner_pqhcmu.svg");
+}
+
   .slider-title__item {
     display: inline-block;
   }
