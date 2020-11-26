@@ -1388,7 +1388,7 @@ td, th {
 }
 .banner-section .overlay-bg {
   opacity: .6;
-  background-color: rgba(31, 198, 157, .7);
+  background-color: rgb(44, 45, 132, .7);
 }
 .banner-section .banner-left h1 {
   font-size: 55px;
