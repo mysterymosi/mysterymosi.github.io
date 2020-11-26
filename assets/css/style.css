@@ -3409,7 +3409,7 @@ td, th {
   }
   .slider-item:nth-child(2) {
     animation-delay: 3s;
-    color: #5fbe00;
+    color: rgb(247, 161, 47);
   }
   .slider-item:nth-child(3) {
     animation-delay: 6s;
