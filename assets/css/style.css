@@ -3276,7 +3276,7 @@ td, th {
   .banner-section p {
     font-size: 20px;
     margin-bottom: 37px;
-    margin-top: 37px;
+    margin-top: 0;
   }
   .single-service {
     min-height: 387.61px;
@@ -3382,6 +3382,10 @@ td, th {
 
 .store-owner-banner {
   background-image: url("../img/partner_pqhcmu.svg");
+}
+
+.header-img {
+  width: 120px;
 }
 
   .slider-title__item {
