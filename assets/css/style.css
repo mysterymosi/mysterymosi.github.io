@@ -3388,6 +3388,13 @@ td, th {
   width: 120px;
 }
 
+.privacy-list .single-item {
+  list-style-type: lower-latin !important;
+  color: black !important;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
   .slider-title__item {
     display: inline-block;
   }
