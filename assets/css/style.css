@@ -3395,6 +3395,12 @@ td, th {
   margin-bottom: 10px;
 }
 
+.privacy-list .single-list-item {
+  list-style-type: disc !important;
+  color: black !important;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
   .slider-title__item {
     display: inline-block;
   }
