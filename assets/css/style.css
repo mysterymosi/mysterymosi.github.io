@@ -3473,6 +3473,11 @@ td, th {
       margin-left: 0 !important;
       margin-top: .50rem;
     }
+
+    .email-input {
+      padding-top: 15px !important;
+      padding-bottom: 15px  !important;
+    }
   }
 
   .email-form .primary-btn {
