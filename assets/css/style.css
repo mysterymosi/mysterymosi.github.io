@@ -3224,6 +3224,7 @@ td, th {
 
 .values-section {
   background: rgb(245, 247, 250);
+  padding-top: 200px !important;
 }
 
 .values-section .single-service {
