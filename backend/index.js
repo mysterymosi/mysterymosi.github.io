@@ -9,7 +9,6 @@ app.use(express.urlencoded( {extended: true }));
 
 const RECAPTCHA_SECRET = process.env.SECRET;
 
-console.log(process.env.SECRET);
 app.post("/verify-captcha", function(request, response) {
     let recaptcha_url = "https://www.google.com/recaptcha/api/siteverify?";
     recaptcha_url += "secret=" + RECAPTCHA_SECRET + "&";
