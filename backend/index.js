@@ -86,6 +86,9 @@ async function getReferrer(req,res){
         where: {
             email
         },
+        attributes:[
+            'uid','email','referrer','refcode','points',[db.sequelize.literal('(RANK() OVER (ORDER BY points DESC))'), 'position']
+        ],
         include: [
             {
                 model: db.User,
