@@ -82,22 +82,35 @@ async function getReferrer(req,res){
         res.status(400).json(data)
     }
 
-    const user = await db.User.findOne({
-        where: {
-            email
-        },
-        attributes:[
-            'uid','email','referrer','refcode','points',[db.sequelize.literal('(RANK() OVER (ORDER BY points DESC))'), 'position']
-        ],
-        include: [
-            {
-                model: db.User,
-                as: 'referrals',
-                attributes: ['email']
+    // const user = await db.User.findAll({
+    //     attributes:[
+    //         'uid','email','referrer','refcode','points',[db.sequelize.literal(`(RANK() OVER (ORDER BY points DESC))`), 'position']
+    //     ],
+    //     include: [
+    //         {
+    //             model: db.User,
+    //             as: 'referrals',
+    //             attributes: ['email']
                 
-        }
-    ]
-    })
+    //     }
+    // ],
+    // where: {
+    //     email
+    // },
+    // order: [
+    //     ['points', 'DESC']
+    // ]
+    // })
+    const user = await db.sequelize.query(`SELECT * FROM (
+        SELECT
+        uid,email,referrer,refcode,points,
+        RANK() OVER (ORDER BY points DESC) AS position
+        FROM Users
+        ORDER BY points DESC
+    ) AS Users WHERE email = '${email}'`, {
+        model: db.User,
+        mapToModel: true // pass true here if you have any mapped fields
+      });
     res.status(200).json(user);
 }
 
