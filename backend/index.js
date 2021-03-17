@@ -74,6 +74,7 @@ async function generateRefCode(req, res) {
 
 async function getReferrer(req,res){
     const {email} = req.body;
+    console.log(email,req.body.email)
     if(email == ""){
         data = {
             message:"no email"
@@ -85,6 +86,9 @@ async function getReferrer(req,res){
         where: {
             email
         },
+        attributes:[
+            'uid','email','referrer','refcode','points',[db.Sequelize.literal('(RANK() OVER (ORDER BY points DESC))')]
+        ],
         include: [
             {
                 model: db.User,
