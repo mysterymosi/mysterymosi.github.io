@@ -73,7 +73,8 @@ async function generateRefCode(req, res) {
 }
 
 async function getReferrer(req,res){
-    const {email} = req.body;
+    const email = req.params.email;
+    console.log("email: " + req.params.email);
     if(email == ""){
         data = {
             message:"no email"
@@ -109,7 +110,7 @@ async function getWaitingList(req,res){
 app.post("/verify-captcha", catchErrors(recaptcha));
 
 app.post("/", catchErrors(generateRefCode))
-app.get("/", catchErrors(getReferrer))
+app.get("/:email", catchErrors(getReferrer))
 app.get("/waiting-list", catchErrors(getWaitingList))
 
 function logErrors(err, req, res, next) {
