@@ -82,25 +82,6 @@ async function getReferrer(req,res){
         res.status(400).json(data)
     }
 
-    // const user = await db.User.findAll({
-    //     attributes:[
-    //         'uid','email','referrer','refcode','points',[db.sequelize.literal(`(RANK() OVER (ORDER BY points DESC))`), 'position']
-    //     ],
-    //     include: [
-    //         {
-    //             model: db.User,
-    //             as: 'referrals',
-    //             attributes: ['email']
-                
-    //     }
-    // ],
-    // where: {
-    //     email
-    // },
-    // order: [
-    //     ['points', 'DESC']
-    // ]
-    // })
     const user = await db.sequelize.query(`SELECT * FROM (
         SELECT
         uid,email,referrer,refcode,points,
@@ -111,14 +92,31 @@ async function getReferrer(req,res){
         model: db.User,
         mapToModel: true // pass true here if you have any mapped fields
       });
-    res.status(200).json(user);
+      const referrals = await user[0].getReferrals() 
+      data = {
+          user: user[0],
+          referrals,
+      }
+    res.status(200).json(data);
 }
 
 async function getWaitingList(req,res){
     const user = await db.User.findAll({
-        order: [
-            ['points', 'DESC']
-        ]
+        attributes:{
+            include: [
+                [
+                    'uid','email','referrer','refcode','points',[db.sequelize.literal(`(RANK() OVER (ORDER BY points DESC))`), 'position']
+                ]
+            ]
+        },
+        include: [
+            {
+                model: db.User,
+                as: 'referrals',
+                attributes: ['email']
+                
+        }
+    ]
     })
     res.status(200).json(user);
 }
