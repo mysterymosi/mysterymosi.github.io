@@ -1689,6 +1689,7 @@ td, th {
 .service-section {
   padding-bottom: 120px;
 }
+
 .service-section .single-service {
   position: relative;
   background-color: #f5f5f56b;
@@ -3232,6 +3233,10 @@ td, th {
   border-radius:3px 100px 3px 3px;
 }
 
+.single-service.benefits {
+  border-radius: 0;
+}
+
 /* .dope-nav-container li a{
   color: #ffffff !important;
 }
@@ -3283,11 +3288,19 @@ td, th {
   .single-service {
     min-height: 387.61px;
   }
+
+  .single-service.benefits {
+    min-height: 160.61px;
+  }
 }
 
 @media (min-width: 1280px) {
   .single-service {
     min-height: 320.61px;
+  }
+
+  .single-service.benefits {
+    min-height: 160.61px;
   }
 }
 
@@ -3490,6 +3503,16 @@ td, th {
   .email-form .primary-btn {
     border-radius: 0;
     margin-left: .25rem;
+  }
+
+  .single-blog__list {
+    list-style-type: disc !important;
+    margin:15px 30px 30px 30px;
+
+  }
+
+  ol.single-blog__list {
+    list-style-type: decimal !important;
   }
 
   @keyframes slide {
