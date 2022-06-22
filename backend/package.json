@@ -17,7 +17,7 @@
     "request": "^2.88.2",
     "sequelize": "^6.5.0",
     "sequelize-cli": "^6.2.0",
-    "sqlite3": "^5.0.2",
+    "sqlite3": "^5.0.3",
     "voucher-code-generator": "^1.1.1"
   }
 }
